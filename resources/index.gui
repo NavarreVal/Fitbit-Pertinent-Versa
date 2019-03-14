@@ -1,0 +1,29 @@
+<svg class="background">
+  <image x="8%" y="3%" width="32" height="32" href="icons/stepsBlue.png" />
+  <image x="90%-5" y="5%-5" width="23" height="23" href="icons/dist.png" />
+  <image x="115" y="235" width="12%" height="16%" href="icons/bolt.png" />
+
+  <arc id="arc" x="5" y="45" width="226" height="226" fill="greenyellow" 
+      arc-width="10" start-angle="-180" sweep-angle="180"  />
+  
+  <symbol id="animatedHRImage">
+    <image id="hrIcon" x="58%" y="85%-5" width="45" height="45" href="icons/stat_hr_solid_48px.png" load="sync" fill="#CCCCCC"/>
+    <animate attributeName="opacity" begin="enable" end="disable" final="restore" from="1" to="0" dur="1" />
+  </symbol>
+  
+  <use id="hrImage" href="#animatedHRImage" />
+  <text id="hrText" fill="#ffffff" font-size="40" font-family="System-Bold" text-anchor="start" text-length="32" x="75%" y="90%+18">--</text>
+  
+  <g>
+    <text id="steps" >--</text>
+  </g>
+  
+  <text id="date"/>
+  <text id="day"/>
+  <text id="time" />
+  
+  <text id="timeLabel" />
+  <text id="temperatureLabel" />
+  <text id="meteoLabel" />
+  <text id="locationLabel" />
+</svg>
