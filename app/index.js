@@ -57,7 +57,7 @@ clock.ontick = e => {
   
   const charge = battery.chargeLevel;
   
-  if (charge > 80) {
+  if (charge > 70) {
     arc.style.fill = "greenyellow";
   } else if (charge > 50) {
     arc.style.fill = "#FFA500";
