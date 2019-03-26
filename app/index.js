@@ -3,7 +3,7 @@ import document from "document";
 import { preferences } from "user-settings";
 import { units } from "user-settings";
 import { today } from "user-activity";
-import * as hrm from "hrm";
+import * as hrm from "../common/hrm";
 import { battery } from "power";
 import * as util from "../common/utils";
 import { 
